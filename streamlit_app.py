@@ -37,6 +37,6 @@ if submit:
     session.sql(INST_STMT).collect()
     st.success('Your Smoothie ordered successfully, '+ Name_on_order+'!', icon = "✅")
 #New Section to display fruityvice nutrition information
-import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text(fruityvice_response)
+#import requests
+#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+#st.text(fruityvice_response)
